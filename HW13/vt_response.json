@@ -1,0 +1,75 @@
+{
+  "data": {
+    "id": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+    "type": "file",
+    "attributes": {
+      "sha256": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+      "sha1": "3395856ce81f2b7382dee72602f798b642f14140",
+      "md5": "44d88612fea8a8f36de82e1278abb02f",
+      "size": 68,
+      "type_description": "Text",
+      "names": [
+        "eicar.com",
+        "eicar_test_file",
+        "EICAR.txt"
+      ],
+      "last_analysis_date": 1709500800,
+      "last_analysis_stats": {
+        "malicious": 55,
+        "suspicious": 0,
+        "undetected": 6,
+        "harmless": 0,
+        "timeout": 1,
+        "type-unsupported": 7,
+        "failure": 0
+      },
+      "last_analysis_results": {
+        "Kaspersky": {
+          "category": "malicious",
+          "engine_name": "Kaspersky",
+          "result": "EICAR-Test-File"
+        },
+        "DrWeb": {
+          "category": "malicious",
+          "engine_name": "DrWeb",
+          "result": "EICAR Test File (NOT a Virus!)"
+        },
+        "Avast": {
+          "category": "malicious",
+          "engine_name": "Avast",
+          "result": "EICAR Test-NOT virus!!!"
+        },
+        "ESET-NOD32": {
+          "category": "malicious",
+          "engine_name": "ESET-NOD32",
+          "result": "Eicar test file"
+        },
+        "BitDefender": {
+          "category": "malicious",
+          "engine_name": "BitDefender",
+          "result": "EICAR-Test-File (not a virus)"
+        },
+        "McAfee": {
+          "category": "malicious",
+          "engine_name": "McAfee",
+          "result": "EICAR test file"
+        },
+        "Symantec": {
+          "category": "malicious",
+          "engine_name": "Symantec",
+          "result": "EICAR Test String"
+        },
+        "ClamAV": {
+          "category": "malicious",
+          "engine_name": "ClamAV",
+          "result": "Win.Test.EICAR_HDB-1"
+        }
+      },
+      "reputation": -962,
+      "tags": [
+        "text",
+        "eicar"
+      ]
+    }
+  }
+}
