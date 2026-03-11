@@ -1,0 +1,143 @@
+{
+  "report_date": "2026-03-11",
+  "summary": {
+    "total_alerts": 16,
+    "unique_signatures": 6,
+    "blocked_ips": [
+      "10.0.0.50",
+      "192.168.1.105",
+      "172.16.0.8",
+      "192.168.1.77"
+    ],
+    "suspicious_dns_pairs": 1,
+    "total_vulnerabilities": 10,
+    "critical_vulnerabilities": 7
+  },
+  "top_source_ips": [
+    {
+      "ip": "10.0.0.50",
+      "alert_count": 6
+    },
+    {
+      "ip": "192.168.1.105",
+      "alert_count": 3
+    },
+    {
+      "ip": "172.16.0.8",
+      "alert_count": 3
+    },
+    {
+      "ip": "192.168.1.77",
+      "alert_count": 3
+    },
+    {
+      "ip": "192.168.1.55",
+      "alert_count": 1
+    }
+  ],
+  "signature_distribution": [
+    {
+      "signature": "ET SCAN SSH Brute Force Attempt",
+      "count": 6
+    },
+    {
+      "signature": "ET MALWARE Trickbot Checkin",
+      "count": 3
+    },
+    {
+      "signature": "ET POLICY Cryptocurrency Mining Pool Connection",
+      "count": 3
+    },
+    {
+      "signature": "ET WEB_SERVER SQL Injection Attempt",
+      "count": 2
+    },
+    {
+      "signature": "ET TROJAN Metasploit Meterpreter Reverse HTTPS",
+      "count": 1
+    },
+    {
+      "signature": "ET WEB_SERVER XSS Attempt",
+      "count": 1
+    }
+  ],
+  "suspicious_dns": [
+    {
+      "src_ip": "192.168.1.200",
+      "query": "malicious-domain.xyz",
+      "count": 5
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "CVE-2024-3094",
+      "title": "XZ Utils backdoor (liblzma)",
+      "cvss": 10.0,
+      "type": "cve",
+      "published": "2024-03-29"
+    },
+    {
+      "id": "CVE-2024-21762",
+      "title": "Fortinet FortiOS Out-of-Bound Write",
+      "cvss": 9.8,
+      "type": "cve",
+      "published": "2024-02-09"
+    },
+    {
+      "id": "CVE-2023-44228",
+      "title": "Apache OFBiz SSRF to RCE",
+      "cvss": 9.8,
+      "type": "cve",
+      "published": "2023-12-05"
+    },
+    {
+      "id": "CVE-2023-46805",
+      "title": "Ivanti Connect Secure Auth Bypass",
+      "cvss": 8.2,
+      "type": "cve",
+      "published": "2024-01-10"
+    },
+    {
+      "id": "CVE-2024-0204",
+      "title": "GoAnywhere MFT Auth Bypass",
+      "cvss": 9.8,
+      "type": "cve",
+      "published": "2024-01-22"
+    },
+    {
+      "id": "CVE-2023-20198",
+      "title": "Cisco IOS XE Web UI Privilege Escalation",
+      "cvss": 10.0,
+      "type": "cve",
+      "published": "2023-10-16"
+    },
+    {
+      "id": "CVE-2023-4966",
+      "title": "Citrix NetScaler Information Disclosure",
+      "cvss": 7.5,
+      "type": "cve",
+      "published": "2023-10-10"
+    },
+    {
+      "id": "CVE-2024-1709",
+      "title": "ConnectWise ScreenConnect Auth Bypass",
+      "cvss": 10.0,
+      "type": "cve",
+      "published": "2024-02-19"
+    },
+    {
+      "id": "CVE-2023-36884",
+      "title": "Microsoft Office HTML RCE",
+      "cvss": 8.8,
+      "type": "cve",
+      "published": "2023-07-11"
+    },
+    {
+      "id": "CVE-2023-22515",
+      "title": "Atlassian Confluence Broken Access Control",
+      "cvss": 9.8,
+      "type": "cve",
+      "published": "2023-10-04"
+    }
+  ]
+}

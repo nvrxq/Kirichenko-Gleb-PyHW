@@ -1,0 +1,22 @@
+category,item,value,blocked
+alert_source_ip,10.0.0.50,6.0,True
+alert_source_ip,192.168.1.105,3.0,True
+alert_source_ip,172.16.0.8,3.0,True
+alert_source_ip,192.168.1.77,3.0,True
+alert_source_ip,192.168.1.55,1.0,False
+signature,ET SCAN SSH Brute Force Attempt,6.0,False
+signature,ET MALWARE Trickbot Checkin,3.0,False
+signature,ET POLICY Cryptocurrency Mining Pool Connection,3.0,False
+signature,ET WEB_SERVER SQL Injection Attempt,2.0,False
+signature,ET TROJAN Metasploit Meterpreter Reverse HTTPS,1.0,False
+signature,ET WEB_SERVER XSS Attempt,1.0,False
+vulnerability,CVE-2024-3094 XZ Utils backdoor (liblzma),10.0,False
+vulnerability,CVE-2024-21762 Fortinet FortiOS Out-of-Bound Write,9.8,False
+vulnerability,CVE-2023-44228 Apache OFBiz SSRF to RCE,9.8,False
+vulnerability,CVE-2023-46805 Ivanti Connect Secure Auth Bypass,8.2,False
+vulnerability,CVE-2024-0204 GoAnywhere MFT Auth Bypass,9.8,False
+vulnerability,CVE-2023-20198 Cisco IOS XE Web UI Privilege Escalation,10.0,False
+vulnerability,CVE-2023-4966 Citrix NetScaler Information Disclosure,7.5,False
+vulnerability,CVE-2024-1709 ConnectWise ScreenConnect Auth Bypass,10.0,False
+vulnerability,CVE-2023-36884 Microsoft Office HTML RCE,8.8,False
+vulnerability,CVE-2023-22515 Atlassian Confluence Broken Access Control,9.8,False
